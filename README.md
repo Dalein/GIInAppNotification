@@ -3,7 +3,7 @@
 Dropdown notification view for iOS
 
 #Demo
-![Demo](https://raw.githubusercontent.com/Dalein/VCTransition/master/demo.gif)
+![Demo](https://github.com/Dalein/GIInAppNotification/blob/master/demo.gif)
 
 #Example
 Interface of the GIInAppNotification created in .xib so you can easy modify it like you want. 
