@@ -15,6 +15,8 @@
 		FC6F04C71D0FC6D100554274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6F04C51D0FC6D100554274 /* LaunchScreen.storyboard */; };
 		FC6F04D21D0FC6D200554274 /* GIInAppNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F04D11D0FC6D200554274 /* GIInAppNotificationTests.m */; };
 		FC6F04DD1D0FC6D200554274 /* GIInAppNotificationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F04DC1D0FC6D200554274 /* GIInAppNotificationUITests.m */; };
+		FC6F04ED1D0FC6ED00554274 /* GIInAppNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6F04EB1D0FC6ED00554274 /* GIInAppNotification.m */; };
+		FC6F04EE1D0FC6ED00554274 /* GIInAppNotification.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6F04EC1D0FC6ED00554274 /* GIInAppNotification.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		FC6F04D81D0FC6D200554274 /* GIInAppNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIInAppNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6F04DC1D0FC6D200554274 /* GIInAppNotificationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIInAppNotificationUITests.m; sourceTree = "<group>"; };
 		FC6F04DE1D0FC6D200554274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6F04EA1D0FC6ED00554274 /* GIInAppNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIInAppNotification.h; sourceTree = "<group>"; };
+		FC6F04EB1D0FC6ED00554274 /* GIInAppNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIInAppNotification.m; sourceTree = "<group>"; };
+		FC6F04EC1D0FC6ED00554274 /* GIInAppNotification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GIInAppNotification.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +106,13 @@
 		FC6F04B61D0FC6D100554274 /* GIInAppNotification */ = {
 			isa = PBXGroup;
 			children = (
+				FC6F04EF1D0FC6F400554274 /* GIInAppNotification */,
 				FC6F04BA1D0FC6D100554274 /* AppDelegate.h */,
 				FC6F04BB1D0FC6D100554274 /* AppDelegate.m */,
 				FC6F04BD1D0FC6D100554274 /* ViewController.h */,
 				FC6F04BE1D0FC6D100554274 /* ViewController.m */,
 				FC6F04C01D0FC6D100554274 /* Main.storyboard */,
 				FC6F04C31D0FC6D100554274 /* Assets.xcassets */,
-				FC6F04C51D0FC6D100554274 /* LaunchScreen.storyboard */,
-				FC6F04C81D0FC6D100554274 /* Info.plist */,
 				FC6F04B71D0FC6D100554274 /* Supporting Files */,
 			);
 			path = GIInAppNotification;
@@ -117,6 +121,8 @@
 		FC6F04B71D0FC6D100554274 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC6F04C51D0FC6D100554274 /* LaunchScreen.storyboard */,
+				FC6F04C81D0FC6D100554274 /* Info.plist */,
 				FC6F04B81D0FC6D100554274 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +144,16 @@
 				FC6F04DE1D0FC6D200554274 /* Info.plist */,
 			);
 			path = GIInAppNotificationUITests;
+			sourceTree = "<group>";
+		};
+		FC6F04EF1D0FC6F400554274 /* GIInAppNotification */ = {
+			isa = PBXGroup;
+			children = (
+				FC6F04EA1D0FC6ED00554274 /* GIInAppNotification.h */,
+				FC6F04EB1D0FC6ED00554274 /* GIInAppNotification.m */,
+				FC6F04EC1D0FC6ED00554274 /* GIInAppNotification.xib */,
+			);
+			name = GIInAppNotification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				FC6F04C71D0FC6D100554274 /* LaunchScreen.storyboard in Resources */,
 				FC6F04C41D0FC6D100554274 /* Assets.xcassets in Resources */,
 				FC6F04C21D0FC6D100554274 /* Main.storyboard in Resources */,
+				FC6F04EE1D0FC6ED00554274 /* GIInAppNotification.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				FC6F04BF1D0FC6D100554274 /* ViewController.m in Sources */,
 				FC6F04BC1D0FC6D100554274 /* AppDelegate.m in Sources */,
 				FC6F04B91D0FC6D100554274 /* main.m in Sources */,
+				FC6F04ED1D0FC6ED00554274 /* GIInAppNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
